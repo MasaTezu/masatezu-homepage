@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>MASAYUKI TEZUKA's Homepage</title>
+        <meta name="description" content="MASAYUKI TEZUKA's Homepage. Masayuki Tezuka is a doctoral student in the Tokyo Institute of Technology.
+            My research topic is cryptography, especially digital signature.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <header class="header">
+            <div class="header_inner">
+                <nav>
+                    <ul class="header-nav">
+                      <li class="header-nav__item">
+                          <a class="header-nav__link" href="index.html">ホーム</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a class="header-nav__link" href="about_me_ja.html">履歴書</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a class="header-nav__current" href="laboratory_ja.html">研究室</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a class="header-nav__link" href="publications_ja.html">研究実績</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a class="header-nav__link" href="lectures_ja.html">教育活動</a>
+                      </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="main-content-container">
+                <h2>研究室について</h2>
+                <p>2022年後期より高専4年生が所属することができます．
+                数学をベースに情報を研究する理論計算機科学の研究室です．
+                
+                </p>
+            </div>
+
+            <div class="main-content-container">
+                <h2>私の研究内容</h2>
+                <p>私は暗号理論の研究に取り組んでいます．取り組んでいる研究トピックについていくつか説明します．研究室選びの参考になれば幸いです．
+                </p>
+                
+                <h3>高機能署名の研究</h3>
+                        <p>電子署名は電子文書を本人が作成したこと，電子文書が改竄されていないことを証明することができる暗号技術です．従来の電子署名方式では，一つの電子文書を正当に作成されたことを証明するために一つの署名を生成する必要があります．<br>
+                        IoT時代では小型センサーなど膨大な機器がインターネットに接続され大量のデータの送受信が行われます．しかし，従来の電子署名でデータの改竄等を検知するためには，データ毎に署名の検証と保管を行う必要があります．多くの電子署名方式では署名検証の計算コストは計算コストと比べ高く，IoTシステムなど膨大な通信データを扱うシステムでは，署名の検証がシステムの効率に大きな影響を与えます．<br>
+                        この問題を改善できる技術に集約署名あります．集約署名方式では複数個の署名を一つの署名へ圧縮でき，文書の改竄等の検証を一括で行うことができます．<br>
+                        集約署名のように，従来の電子署名では実現できなかった付加的な機能をもつ署名の総称を高機能署といいます．高機能署名のうち，多重署名，集約署名，閾値署名，ブラインド署名，墨塗署名に関する研究を行っています．多重署名，集約署名，閾値署名はブロックチェーンでの応用，ブラインド署名はE-cashや電子投票の応用が期待されています．
+                        </p>
+
+                <h3>耐量子暗号の研究</h3>
+                       <p>現在幅広く用いられている公開鍵暗号方式や電子署名方式には，RSA問題の困難性に基づく方式（RSA-OAEP暗号，RSA-FDH署名）や離散対数問題の困難性に基づく方式（Schnorr署名など）があります．<br>
+                        近年，情報科学の分野では量子コンピュータの研究が活発に行われています．大規模な量子コンピュータを用いることで，古典のコンピュータで計算が困難であると信じられているRSA問題や離散対数問題を効率的に解くことができる事実が知られています．量子コンピュータが完成すれば，RSA問題や離散対数問題に基づく方式は安全ではありません．<br>
+                        そこで，量子コンピュータでも解くことが困難であると信じられている計算問題を基に，安全な方式の設計の研究を行なっています．現在，計算が困難であると信じれらている計算問題には，格子，符号，多変数多項式，楕円曲線の同種写像に関するものがあります．私の研究では格子，符号の計算問題の困難性を基に暗号方式を設計する研究を進めています．
+                       </p>
+
+                <h3>AIセキュリティの研究</h3>
+                        <p>機械学習やAIの技術は異常アクセスの検知，音声認識，車の自動運転，顔認証など幅広く応用されています．より良い情報社会の実現には，機械学習やAIの研究では予測精度を向上さは重要であり，現在も精度向上の研究が活発に行われています．<br>
+                        AIを顔認証などで用いるときには，認証システムの攻撃者によりAIが意図しない振る舞いをすることAIの学習時で用いた秘密情報がAIから漏洩することを防ぐこと（すなわちAIセキュリティ）が必要です．AIセキュリティの攻撃・防御手法について数学的な観点から研究することで，より安全なAIの実現を目指します．
+                        </p>
+            </div>
+
+            <div class="main-content-container">
+                <h2>研究室配属を希望している方へ</h2>
+                <p>当研究室と相性が良い人は次に当てはまる人かもしれません．</p>
+                <h3>数学に没頭できる人</h3>
+                	<p>積分計算に熱中してお昼ご飯を食べることを忘れる，数学の問題を解いていて気づいたら徹夜していたなど，数学に没頭した経験がある人は向いている可能性があると思います．</p>
+                <h3>情報と計算の理論的な研究に興味がある人</h3>
+                	<p>アルゴリズムの計算量解析に興味がある，情報理論のエントロピーの概念が暗号の安全性議論でどのように使われているか興味がある人は向いている可能性があると思います．</p>
+                <h3>このページの末尾の推薦図書が面白いと思った人</h3>
+                	このページの末尾に「推薦図書」を紹介します．これらの書籍の内容を読んで「面白い」，「興味がある」と思える人は私の研究室に向いているかもしれません．<br>
+                </p>
+            </div>
+
+            <div class="main-content-container">
+                <h2>指導方針</h2>
+                
+                <h3>研究テーマについて</h3>
+                	<p>私の暗号研究はほぼ数学の研究です．暗号の研究では線形代数，確率論，群論，環論，体論，数論，情報理論，符号理論，アルゴリズム論，オートマトン，計算可能性の理論，計算量理論の数学の知識を用いることがあります．大学の数学科や情報科学科ではこれらの科目の授業が開講され，大学３年次修了相当（場合によっては修士１年修了相当）で研究のスタート地点に立てます．<br>
+                	しかし，本校ではこれらの科目ほどんどが開講されない，または開講されても内容が足りていないため，暗号の研究ではこれらの分野の一部を学習する必要があります．
+                	</p>
+                	<p>
+                	卒研テーマはある程度自由にテーマを設定してもらいたいと思います．ただし，私の専門分野から離れ過ぎた分野でのテーマ設定では十分な指導ができないことがあるので相談しながら決めます．<br>
+                    </p>
+                    
+
+
+                <h3>卒業研究の進め方</h3>
+                    <p>卒業研究では，自分で問題を発見し解決を図る能力を身につけることを目標とします．
+                    そのため，研究は原則１人１テーマずつで研究に取り組んでもらいます．
+                    </p>
+                	<p>卒業研究では毎週一回の週報告と月例報告を行ってもらいます．
+                		進め方の詳細については現在検討中ですので暫くお待ちください．
+                	</p>
+            </div> 
+
+            <div class="main-content-container">      
+                <h2>推薦図書</h2>
+                <p>研究に関連する知識を補うために役に立つ書籍を紹介します．</p>
+                <ul>
+                <li>
+                <a href="https://www.maruzen-publishing.co.jp/item/?book_no=294300">暗号の数学的基礎</a> S.C.コウチーニョ 著 Springer
+                </li>
+                <li><a href="https://www.nippyo.co.jp/shop/book/5462.html">代数学１ 群論入門</a> 雪江 明彦 著 日本評論社
+                </li>
+                <li><a href="https://www.saiensu.co.jp/search/?isbn=978-4-7819-1262-2&y=2010">現代暗号への招待</a> 黒澤 馨 著 サイエンス社
+                </li>
+                <li><a href="https://www.kindaikagaku.co.jp/book_list/detail/9784764904088/">アルゴリズムイントロダクション</a> T.コルメン，C.ライザーソン，R.リベスト，C.シュタイン 著 近代科学社</li>
+                <li>
+                計算理論の基礎 Michael Sipser 著 共立出版<br>
+                <a href="https://www.kyoritsu-pub.co.jp/book/b10010657.html">1 オートマトンと言語</a>&ensp;
+                <a href="https://www.kyoritsu-pub.co.jp/book/b10010658.html">2 計算可能性の理論</a>&ensp;
+                <a href="https://www.kyoritsu-pub.co.jp/book/b10010657.html">3 複雑さの理論</a>
+                </li>
+                </ul>
+            </div>
+
+            <div class="endspace"> </div>
+        </div>
+
+        <footer id="pageFoot">
+            <p id="copyright"> &copy; 2020 MASAYUKI TEZUKA</p>
+        </footer>
+    </body>
+</html>
