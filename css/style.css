@@ -12,7 +12,7 @@ body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.6;
     background-color: #f8f8f8;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 h1{
@@ -184,7 +184,7 @@ details[open] {
     padding-top: 20px;
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     text-align: left;
     display: flex;
     align-items: left;
@@ -255,7 +255,7 @@ h3{
 
     /* HEADER */
     .header-nav {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
     }
 
     /* HOME */
