@@ -53,8 +53,7 @@
                             <summary><font color="blue">Abstract</font></summary> 
                         <p>
                         1-out-of-n oblivious signature by Chen (ESORIC 1994) is a protocol between the user and the signer. In this scheme, the user makes a list of n messages and chooses the message that the user wants to obtain a signature from the list. The user interacts with the signer by providing this message list and obtains the signature for only the chosen message without letting the signer identify which messages the user chooses. Tso et al. (ISPEC 2008) presented a formal treatment of 1- out-of-n oblivious signatures. They defined unforgeability and ambiguity for 1-out-of-n oblivious signatures as a security requirement.<br>
-                        In this work, first, we revisit the unforgeability security definition by Tso et al. and point out that their security definition has problems. In particular, we point out that a trivial attack exists in their unforgeability security model and address this problem by modifying their security model and redefining unforgeable security.<br>
-                        Second, we improve the generic construction of a 1-out-of-n oblivious signature scheme by Zhou et al. (IEICE Trans 2022). The bottleneck of their construction is the size of the communication cost. We reduce the communication cost by modifying their scheme with a Merkle tree. Then we prove the security of our modified scheme.
+                        In this work, first, we revisit the unforgeability security definition by Tso et al. and point out that their security definition has problems. We address this problem by modifying their security model and redefining unforgeable security. Second, we improve the generic construction of a 1- out-of-n oblivious signature scheme by Zhou et al. (IEICE Trans 2022). We reduce the communication cost by modifying their scheme with a Merkle tree. Then we prove the security of our modified scheme.
                         </p>
                         </details>
                     </li>
@@ -84,7 +83,8 @@
                         [<a href="https://arxiv.org/abs/2304.00265">arXiv</a>]
                         <details>
                         <summary><font color="blue">Abstract</font></summary>
-                        <p>Synchronized aggregate signature is a special type of signa ture that all signers have a synchronized time period and allows aggregating signatures which are generated in the same period. This signature has a wide range of applications for systems that have a natural reporting period such as log and sensor data, or blockchain protocol.<br>
+                        <p>
+                        Synchronized aggregate signature is a special type of signa ture that all signers have a synchronized time period and allows aggregating signatures which are generated in the same period. This signature has a wide range of applications for systems that have a natural reporting period such as log and sensor data, or blockchain protocol.<br>
                         In CT-RSA 2016, Pointcheval and Sanders proposed the new randomizable signature scheme. Since this signature scheme is based on type-3 pairing, this signature achieves a short signature size and efficient signature verification.<br>
                         In this paper, we design the Pointchcval-Sanders signature-based synchronized aggregate signature scheme and prove its security under the generalized Pointcheval-Sanders assumption in the random oracle model. Our scheme offers the most efficient aggregate signature verification among synchronized aggregate signature schemes based on bilinear groups.                 
                         </p>
