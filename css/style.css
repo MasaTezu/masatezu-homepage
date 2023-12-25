@@ -202,6 +202,7 @@ details[open] {
     display: flex;
     align-items: left;
     flex-direction: column;
+    counter-reset: number 0;  
 }
 
 .main-content-container details{
