@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  font-size: 1.0rem;
+}
+
+h1{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: normal;
+  font-size: 2.0rem;
+}
+
+h2{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+span {
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  border-bottom: 2px solid #ddd;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 3.6rem;
+  background-color: #f8f8f8;
+}
+
+nav{
+  align-items: center;
+}
+
+.header_inner{
+  padding-top: 0.4rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header_inner ul{
+   padding-left: 0px;
+}
+
+.global_nav{
+  display: flex;
+  overflow:hidden;
+  justify-content: space-around;
+  list-style: none;
+  width:100%;
+  text-align: center;
+}
+
+.global_nav_item{
+  flex-grow: 1;
+  text-align: center;
+  padding: 0rem, 4rem;
+  margin: 0rem, 4rem;
+}
+
+.global_nav_text{
+  flex-grow: 1;
+  text-align: center;
+  padding: 0rem, 4rem;
+}
+
+.global_nav_subtext{
+  font-size: 0.8rem;
+}
+
+.global_nav_current {
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+  padding: 0px 4px;
+  border-bottom: 4px solid transparent;
+  color: #432;
+  text-decoration: none;
+  transition: .25s;
+  border-bottom-color: #e25c00;
+  width: 90%;
+}
+
+.global_nav_link{
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+  padding: 0px 4px;
+  border-bottom: 4px solid transparent;
+  color: #432;
+  text-decoration: none;
+  transition: .25s;
+  width: 90%;
+}
+
+.global_nav_link:focus,
+.global_nav_link:hover {
+  border-bottom-color: #e25c00;
+  color: red;
+}
+
+.global_nav_link::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  transform: translateY(-50%);
+}
+
+.global_nav_current:focus,
+.global_nav_current:hover {
+  border-bottom-color: #e25c00;
+  color: red;
+}
+
+.global_nav_current::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  transform: translateY(-50%);
+} 
+
+.home_title{
+  position: center;
+  padding: 2rem;
+}
+
+.general_content{
+  position: center;
+  text-align: center;
+  min-height: 40vh;
+  padding-top: 10vh;
+}
+
+.general_content_area{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.0rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  counter-reset: number 0;  
+}
+
+.list_items{
+  margin-left: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.list_items li {
+  margin-bottom: 15px;
+  }
+
+.endspace {
+  height: 5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+
+  body{
+    height: 100%;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    font-size: 1.0rem;
+  }
+  
+  h1{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+  }
+  
+  h2{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  
+  span {
+    display: inline-block;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  header{
+    border-bottom: 2px solid #ddd;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 2.8rem;
+    background-color: #f8f8f8;
+  }
+  
+  nav{
+    align-items: center;
+  }
+  
+  .header_inner{
+    padding-top: 0.2rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .header_inner ul{
+     padding-left: 0px;
+  }
+  
+  .global_nav{
+    display: flex;
+    overflow:hidden;
+    justify-content: space-around;
+    list-style: none;
+    width:100%;
+    text-align: center;
+  }
+  
+  .global_nav_item{
+    flex-grow: 1;
+    text-align: center;
+    padding: 0rem, 2rem;
+    margin: 0rem, 2rem;
+  }
+  
+  .global_nav_text{
+    flex-grow: 1;
+    text-align: center;
+    padding: 0rem, 2rem;
+    font-size: 0.75rem;
+  }
+  
+  .global_nav_subtext{
+    font-size: 0.6rem;
+  }
+  
+  .global_nav_current {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    padding: 0px 2px;
+    border-bottom: 4px solid transparent;
+    color: #432;
+    text-decoration: none;
+    transition: .25s;
+    border-bottom-color: #e25c00;
+    width: 90%;
+  }
+  
+  .global_nav_link{
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    padding: 0px 2px;
+    border-bottom: 4px solid transparent;
+    color: #432;
+    text-decoration: none;
+    transition: .25s;
+    width: 90%;
+  }
+  
+  .global_nav_link:focus,
+  .global_nav_link:hover {
+    border-bottom-color: #e25c00;
+    color: red;
+  }
+  
+  .global_nav_link::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    transform: translateY(-50%);
+  }
+  
+  .global_nav_current:focus,
+  .global_nav_current:hover {
+    border-bottom-color: #e25c00;
+    color: red;
+  }
+  
+  .global_nav_current::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    transform: translateY(-50%);
+  } 
+  
+  .home_title{
+    position: center;
+    padding-top: 2rem;
+  }
+  
+  .general_content{
+    position: center;
+    text-align: center;
+    min-height: 40vh;
+    padding-top: 10vh;
+  }
+  
+  .general_content_area{
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    counter-reset: number 0;  
+  }
+  
+  .list_items{
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+  
+  .list_items li {
+    margin-bottom: 15px;
+    }
+  
+  
+  .endspace {
+    height: 3rem;
+  }
+  
+  footer {
+      position: fixed;
+      bottom: 0;
+      background: black;
+      text-align: center;
+      width: 100%;
+  }
+
+  footer p {
+      color: #fff;
+      font-size: 0.6rem;
+  }
+} 
