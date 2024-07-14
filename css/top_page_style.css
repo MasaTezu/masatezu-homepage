@@ -161,6 +161,10 @@
   .my_info_table_tr{
     text-align: left;
   }
+
+  .scroll {
+    display: none;
+  }
   
   .my_contact{
     text-align: left;
