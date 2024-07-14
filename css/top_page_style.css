@@ -5,6 +5,11 @@
   padding: 2rem;
 }
 
+.top_text{
+  position: center;
+  text-align: center;
+}
+
 .top_page_sub_title{
   position: center;
   padding: 2rem;
@@ -19,7 +24,7 @@
 }
 
 .top_page_area{
-  padding-top: 10rem;
+  padding-top: 0rem;
   margin-left: 5vw;
   margin-right: 5vw;
   font-size: 1.0rem;
@@ -34,8 +39,8 @@
 }
 
 .my_brief_intro{
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -46,7 +51,7 @@
 .my_photo{
   align-items: center;
   justify-items: center;
-  width: 360px;
+  width: 250px;
 }
 
 .my_info_table_area{
