@@ -10,9 +10,9 @@
   text-align: center;
 }
 
-.top_page_sub_title{
-  padding: 2rem;
-  text-align: center;
+.top_page_sub_sec{
+  padding-bottom: 0.5rem;
+  text-align: left;
 }
 
 .top_page_content{
@@ -27,7 +27,7 @@
 .top_page_prof{
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 1.0rem;
   display: flex;
   align-items: center;
