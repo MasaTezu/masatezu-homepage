@@ -17,12 +17,14 @@ h1{
   font-family: 'Sawarabi Mincho', sans-serif;
   font-weight: normal;
   font-size: 2.0rem;
+  text-align: center;
 }
 
 h2{
   font-family: 'Sawarabi Mincho', sans-serif;
   font-weight: normal;
   font-size: 1.6rem;
+  text-align: left;
 }
 
 span {

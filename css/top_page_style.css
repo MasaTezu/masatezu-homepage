@@ -11,31 +11,42 @@
 }
 
 .top_page_sub_title{
-  position: center;
   padding: 2rem;
+  text-align: center;
 }
 
 .top_page_content{
   position: center;
   text-align: center;
-  height: 100vh;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
+  min-height: 40vh;
+  padding-top: 10vh;
+  /* overflow: auto;
+  scroll-snap-type: y mandatory; */
 }
 
-.top_page_area{
-  padding-top: 0rem;
+.top_page_prof{
   margin-left: 5vw;
   margin-right: 5vw;
+  margin-bottom: 4rem;
   font-size: 1.0rem;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   counter-reset: number 0;
-  height: 100vh;
   scroll-snap-align: center;
+}
+
+.top_page_area{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 4rem;
+  font-size: 1.0rem;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  counter-reset: number 0;
 }
 
 .my_brief_intro{
@@ -62,7 +73,7 @@
   text-align: left;
 }
 
-.scroll {
+/* .scroll {
   padding-top: 70px;
   position: relative;
   text-align:center;
@@ -103,15 +114,13 @@
     opacity: 0;
   }
   
-}
+} */
 
 .my_reserch{
-  width: 75%;
   text-align: left;
 }
 
 .my_contact{
-  width: 75%;
   text-align: left;
 }
 
