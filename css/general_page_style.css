@@ -48,6 +48,7 @@
   .general_content{
     position: center;
     text-align: center;
+    font-size: 0.8rem;
     min-height: 40vh;
     padding-top: 10vh;
   }
