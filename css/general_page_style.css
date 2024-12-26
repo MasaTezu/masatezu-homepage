@@ -8,6 +8,7 @@
 .general_content{
   position: center;
   text-align: center;
+  color: #595959;
   min-height: 40vh;
   padding-top: 10vh;
 }
