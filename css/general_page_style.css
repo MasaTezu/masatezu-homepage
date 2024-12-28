@@ -5,6 +5,30 @@
   padding: 2rem;
 }
 
+.my_brief_intro{
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: top;
+  flex-direction: row;
+}
+
+.my_photo{
+  align-items: center;
+  justify-items: center;
+  width: 220px;
+}
+
+.my_info_table_area{
+  width: 100%;
+}
+
+.my_info_table_tr{
+  text-align: left;
+}
+
 .general_content{
   position: center;
   text-align: center;
@@ -33,7 +57,12 @@
 
 .list_items li {
   margin-bottom: 15px;
-  }
+}
+
+.my_contact{
+  padding-top: 1rem;
+  text-align: left;
+}
 
 .endspace {
   height: 5rem;
@@ -44,6 +73,30 @@
   .home_title{
     position: center;
     padding-top: 2rem;
+  }
+
+  .my_brief_intro{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: top;
+    flex-direction: column;
+  }
+  
+  .my_photo{
+    align-items: center;
+    justify-items: center;
+    width: 360px;
+  }
+  
+  .my_info_table_area{
+    padding-top: 2rem;
+  }
+  
+  .my_info_table_tr{
+    text-align: left;
   }
   
   .general_content{
@@ -74,5 +127,10 @@
   .list_items li {
     margin-bottom: 15px;
     }
+
+  .my_contact{
+    padding-top: 1rem;
+    text-align: left;
+  }
 
 } 
