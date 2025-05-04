@@ -59,9 +59,11 @@
   margin-bottom: 15px;
 }
 
-.my_contact{
+.my_text{
   padding-top: 1rem;
+  padding-bottom: 2rem;
   text-align: left;
+  
 }
 
 .endspace {
@@ -125,11 +127,12 @@
   }
   
   .list_items li {
-    margin-bottom: 15px;
+   margin-bottom: 15px;
     }
 
-  .my_contact{
+  .my_text{
     padding-top: 1rem;
+    padding-bottom: 2rem;
     text-align: left;
   }
 
