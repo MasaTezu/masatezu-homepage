@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.home_title{
+  position: center;
+  padding: 2rem;
+}
+
+.my_brief_intro{
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: top;
+  flex-direction: row;
+}
+
+.my_photo{
+  align-items: center;
+  justify-items: center;
+  width: 220px;
+}
+
+.my_info_table_area{
+  width: 100%;
+}
+
+.my_info_table_tr{
+  text-align: left;
+}
+
+.general_content{
+  position: center;
+  text-align: center;
+  color: #595959;
+  min-height: 40vh;
+  padding-top: 10vh;
+}
+
+.general_content_area{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 1.0rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  counter-reset: number 0;  
+}
+
+.list_items{
+  margin-left: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.list_items li {
+  margin-bottom: 15px;
+}
+
+.my_text{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  
+}
+
+.endspace {
+  height: 5rem;
+}
+
+@media (max-width: 600px) {
+  
+  .home_title{
+    position: center;
+    padding-top: 2rem;
+  }
+
+  .my_brief_intro{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: top;
+    flex-direction: column;
+  }
+  
+  .my_photo{
+    align-items: center;
+    justify-items: center;
+    width: 360px;
+  }
+  
+  .my_info_table_area{
+    padding-top: 2rem;
+  }
+  
+  .my_info_table_tr{
+    text-align: left;
+  }
+  
+  .general_content{
+    position: center;
+    text-align: center;
+    font-size: 0.8rem;
+    min-height: 40vh;
+    padding-top: 10vh;
+  }
+  
+  .general_content_area{
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    counter-reset: number 0;  
+  }
+  
+  .list_items{
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+  
+  .list_items li {
+   margin-bottom: 15px;
+    }
+
+  .my_text{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: left;
+  }
+
+} 
